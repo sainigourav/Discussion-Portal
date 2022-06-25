@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Discussion Portal</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="tit-contain" class="animate__animated animate__rotateInDownLeft"><span id="title" class="animate__animated animate__flip">Discussion Portal</span></div>
+            <div id="pane">
+                <div id="left-pane">
+                    <div id="lpane-one" class="animate__animated animate__rotateInDownLeft">
+                        <div id="lpane-btn">
+                            <button id="bttn">New Question form</button>
+                        </div>
+                        <div id="lpane-search">
+                            <input id="myinput" type="text" placeholder="search questions...">
+                        </div>
+                    </div>
+                    <div id="lpane_two" class="animate__animated animate__rotateInDownLeft">
+                         
+                        <h1 id="result" style="color:#fff92e; display:none;"> Do Not Match</h1>
+                       
+                    </div>
+                </div>
+                <div id="right-pane" class="animate__animated animate__rotateInDownLeft">
+                    <div id="r-page-one">
+                        <div id="r-pan-1"><span>Welcome to Discussion Portal !</span></div>
+                        <div id="r-pan-2">Enter a subject and question to get started</div>
+                        <form action="#">
+                            <div id="r-pan-3">
+                                <input id="subject" type="text" placeholder="Subject" required autocomplete="off">
+                            </div>
+                            <div id="r-pan-4">
+                                <textarea id="text" placeholder="Question" required></textarea>
+                            </div>
+                            <div id="r-pan-5">
+                                <button id="ques-sub">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="r-page-two">
+                        <div id="r-pan-2-1"><span>Question</span></div>
+                        <div id="r-pan-5-2-1">
+                            <div id="ques-div" class="ques-res">
+                                <span id="ques-name" class="ques-sapn"></span>
+                                <p id="ques-p" class="ques-p"></p>
+                            </div>
+                            <button id="resp-sub">Resolve</button>
+                        </div>
+                        <div id="r_pan_2_1">Response</div>
+                        <div id="r_pan_2_2"></div>
+                        <div id="r-pan-2-2-1">Add Response</div>
+                        <div id="r-pan-3-2">
+                            <input id="in_name" type="text" placeholder="Enter Name" required />
+                        </div>
+                        <div id="r-pan-4-2">
+                            <textarea id="comm" placeholder="Enter Comment" required></textarea>
+                        </div>
+                        <div id="r-pan-5-2">
+                            <button id="resp-submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
